@@ -1,0 +1,50 @@
+/* Estilos CSS básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #f5f102;
+  color: #f5f102;
+  padding: 20px;
+  text-align: center;
+}
+
+#search-form {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#search-form input[type="text"] {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#search-form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #f5f102;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin: 20px auto;
+  width: 800px;
+}
+
+.hotel {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+img {
+  max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}

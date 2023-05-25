@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tela de Login e Cadastro</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+		}
+		
+		.container {
+			width: 300px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		}
+		
+		.container h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		
+		.form-group {
+			margin-bottom: 15px;
+		}
+		
+		.form-group label {
+			display: block;
+			font-weight: bold;
+		}
+		
+		.form-group input[type="text"],
+		.form-group input[type="password"] {
+			width: 100%;
+			padding: 8px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+		}
+		
+		.form-group button {
+			width: 100%;
+			padding: 8px;
+			background-color: #4CAF50;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			border-radius: 3px;
+		}
+		
+		.form-group button:hover {
+			background-color: #45a049;
+		}
+		
+		.switch-form {
+			text-align: center;
+			margin-top: 10px;
+		}
+		
+		.switch-form a {
+			color: #777;
+			text-decoration: none;
+		}
+		
+		.switch-form a:hover {
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Tela de Login e Cadastro</h2>
+		<form id="login-form">
+			<div class="form-group">
+				<label for="login-username">Usuário:</label>
+				<input type="text" id="login-username" name="login-username" required>
+			</div>
+			<div class="form-group">
+				<label for="login-password">Senha:</label>
+				<input type="password" id="login-password" name="login-password" required>
+			</div>
+			<div class="form-group">
+				<button type="submit">Entrar</button>
+			</div>
+		</form>
+		<form id="register-form" style="display: none;">
+			<div class="form-group">
+				<label for="register-username">Usuário:</label>
+				<input type="text" id="register-username" name="register-username" required>
+			</div>
+			<div class="form-group">
+				<label for="register-email">Email:</label>
+				<input type="text" id="register-email" name="register-email" required>
+			</div>
+			<div class="form-group">
+				<label for="register-password">Senha:</label>
+				<input type="password" id="register-password" name="register-password" required>
+			</div>
+			<div class="form-group">
+				<button type="submit">Cadastrar</button>
+			</div>
+		</form>
+		<div class="switch-form">
+			<p>Já possui
+			<div class="switch-form">
+				<p>Já possui uma conta? <a href="#" id="switch-login">Faça login</a></p>
+				<p>Não possui uma conta? <a href="#" id="switch-register">Cadastre-se</a></p>
+			</div>
+	</div>
+
+	
+</body>
+</html>
